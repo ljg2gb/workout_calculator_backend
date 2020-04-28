@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  length: 1
+  type: 
+  intensity: MyString
+  current_hr: 1
+
+two:
+  length: 1
+  type: 
+  intensity: MyString
+  current_hr: 1
