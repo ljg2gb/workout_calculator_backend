@@ -34,8 +34,4 @@ class ExercisesController < ApplicationController
         render json: {message: "Exercise successfully deleted"}
     end
 
-    def create_rest_hrs(create)
-        @exercise = Exercise.find()
-        
-    end
 end
