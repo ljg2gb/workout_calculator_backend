@@ -14,8 +14,8 @@ ActiveRecord::Schema.define(version: 2020_04_28_173956) do
 
   create_table "exercises", force: :cascade do |t|
     t.integer "duration"
-    t.string "type"
-    t.string "intensity"
+    t.integer "type"
+    t.integer "intensity"
     t.integer "current_hr"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 2020_04_28_173956) do
     t.string "name"
     t.string "email"
     t.integer "resting_hr"
-    t.string "passsword"
+    t.string "password"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
